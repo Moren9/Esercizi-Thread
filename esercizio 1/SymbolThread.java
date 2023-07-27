@@ -1,8 +1,3 @@
-// Creare un’applicazione con
-// due thread figli. Ciascuno dei due thread ha associato un simbolo (ad es. * o #) tramite costruttore. Sovrascrivere il metodo
-// run() in modo che ciascun thread stampi continuamente a video il proprio simbolo, andando a capo ogni
-// 50 simboli stampati.
-
 public class SymbolThread extends Thread{
 
     private String symbol;
